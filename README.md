@@ -70,7 +70,7 @@ OpenRatSLAM has it's dependices:
    
 ## Different from the original code
 
-All the codes I modified has made markers in the files, which looks like:
+All the codes I modified were marked in the files and it looks like:
 
 ```
 /* ==============================↓↓↓↓↓==== [deleted] ====↓↓↓↓↓===================================
@@ -86,9 +86,9 @@ or
 // ===============================↑↑↑↑↑==== [added] ====↑↑↑↑↑====================================
 ```
 
-Only two files were modified : CMakeLists.txt and /src/graphics/local_view_scence.h . 
+Only two files were modified : [CMakeLists.txt](https://github.com/DreamWaterFound/OpenRATSLAM_for_ROS-Kinetic/blob/master/CMakeLists.txt) and [/src/graphics/local_view_scence.h](https://github.com/DreamWaterFound/OpenRATSLAM_for_ROS-Kinetic/blob/master/src/graphics/local_view_scene.h) . 
 
-In CMakeLists.txt I add some code to support irrclicht completely. In /src/graphics/local_view_scence.h , I deleted codes about irrclicht, and added a simple image viewer using OpenCV. I found that irrclicht operation in  /src/graphics/local_view_scence.h will cause the callback function which  cannot be called. 
+In [CMakeLists.txt](https://github.com/DreamWaterFound/OpenRATSLAM_for_ROS-Kinetic/blob/master/CMakeLists.txt) I add some code to support irrclicht completely. In [/src/graphics/local_view_scence.h](https://github.com/DreamWaterFound/OpenRATSLAM_for_ROS-Kinetic/blob/master/src/graphics/local_view_scene.h) , I deleted codes about irrclicht, and added a simple image viewer using OpenCV. I found that irrclicht operation in  [/src/graphics/local_view_scence.h](https://github.com/DreamWaterFound/OpenRATSLAM_for_ROS-Kinetic/blob/master/src/graphics/local_view_scene.h) will cause the callback function which  cannot be called. 
 
 ## More
 
